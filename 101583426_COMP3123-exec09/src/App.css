@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+}
+
+.Student-info h1 {
+  font-size: calc(24px + 2vmin);
+  margin: 2rem 0 1rem;
+}
+
+.Student-info h2 {
+  font-size: calc(18px + 1.2vmin);
+  margin: 0.9rem 0;
+}
+
+.Student-info h3 {
+  font-size: calc(15px + 0.8vmin);
+  margin: 0.9rem 0;
+}
+
+.Student-info h4 {
+  font-size: calc(13px + 0.6vmin);
+  margin: 0.9rem 0;
+}
+
+.Student-info h5 {
+  font-size: calc(11px + 0.4vmin);
+  margin: 0.9rem 0;
+}
