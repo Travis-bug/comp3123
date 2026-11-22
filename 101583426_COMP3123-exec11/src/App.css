@@ -1,0 +1,53 @@
+/* Green bar across the top with the "User List" title in it */
+.user-list-header {
+  background-color: #28a745;
+  color: #212529;
+  text-align: center;
+  padding: 1rem 0;
+  margin: 0;
+  font-weight: 700;
+}
+
+/* The teal card for one person */
+.person-card {
+  background-color: #17a2b8;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.person-card .card-header {
+  background-color: #17a2b8;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #212529;
+}
+
+/* Round picture on the left of the card */
+.person-photo {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+/* The label on the left of each row (User Name:, Gender: ...) */
+.person-label {
+  text-align: right;
+  font-size: 0.95rem;
+  color: #212529;
+}
+
+.person-value {
+  color: #212529;
+}
+
+/* The small note at the bottom that the fetch() example writes into */
+.fetch-note {
+  font-size: 0.9rem;
+  color: #495057;
+  padding: 0.5rem 0 1.5rem;
+  text-align: center;
+}
